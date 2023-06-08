@@ -1,13 +1,13 @@
 <form accept-charset="UTF-8" action="/users " method="post">
     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token%>">
     <label for='user_name'></label> <br> <br>
-    <input id='user_name' name='user[username]' type='text'><br>
+    <input id='user_name' name='username' type='text'><br>
 
     <label for='user_email'>Email</label> <br> 
-    <input id='user_email' name='user[email]' type='email'> <br>
+    <input id='user_email' name='email' type='email'> <br>
 
     <label for='user_password'>Password</label> <br>
-    <input id='user_password' name='user[password]' type='password'> <br>
+    <input id='user_password' name='password' type='password'> <br>
 
-    <input name='submit' type='submit'>
+    <input value='submit' type='submit'>
 </form>
